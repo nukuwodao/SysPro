@@ -2,6 +2,200 @@
     margin:0;
     padding:0;
 }
+ul{
+    list-style: none;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #87ceeb;
+    border-radius: 0.5rem;
+}
+/*その他と主な共通部分は省略*/
+
+a.btn-flat {
+    overflow: hidden;
+
+    padding: 1.5rem 6rem;
+
+    color: #fff;
+    border-radius: 0;
+    background: #000;
+}
+
+a.btn-flat span {
+    position: relative;
+    z-index: 1;
+}
+
+a.btn-flat:before {
+    position: absolute;
+    top: 0;
+    left: calc(-100% + 10px);
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+
+    background: #b0e0e6;
+}
+
+a.btn-flat:after {
+    position: absolute;
+    top: 0;
+    right: calc(-100% + 10px);
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+
+    background: #b0e0e6;
+}
+
+a.btn-flat:hover:before {
+    -webkit-transform: translateX(50%) translateY(0);
+    transform: translateX(50%) translateY(0);
+}
+
+a.btn-flat:hover:after {
+    -webkit-transform: translateX(-50%) translateY(0);
+    transform: translateX(-50%) translateY(0);
+}
+
+.btn-flat-double-border {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: double 4px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+}
+.btn-flat-double-border:hover {
+    background: #fffbef;
+}
+
+div.input-exe{
+    display: flex;
+}
+.balloon1 {
+    position: relative;
+    display: inline-block;
+    display: none;
+    margin: 0 0 1.5em 15px;
+    padding: 2px 0;
+    width: 40px;
+    color: #555;
+    left: -10px;
+    font-size: 10px;
+    background: #87ceeb;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.balloon1:after{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 20px;
+    left: -8px;
+    margin-top: -14px;
+    border: 4px solid transparent;
+    border-right: 4px solid #87ceeb;
+    z-index: 1;
+}
+
+.balloon1 p {
+    margin: 0;
+    padding: 0 0 0 1px;
+    font-size: 10px;
+}
+
+a.bt-samp,
+a.bt-samp:hover,
+a.bt-samp:visited{
+    cursor: default;
+    display: block;
+    height: 15px;
+    width: 30px;
+    padding-left:1px;
+    text-decoration: none;
+    text-align: center;
+    color: #7d8383;
+    text-shadow: 0px 1px 0px #fafafa;
+    background: #fbfaf4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfaf4), to(#ece8e6));
+    background: -moz-linear-gradient(top,  #fbfaf4,  #ece8e6);
+    background: -o-linear-gradient(top,  #fbfaf4,  #ece8e6);
+    background: -ms-linear-gradient(top,  #fbfaf4,  #ece8e6);
+    background: linear-gradient(top,  #fbfaf4,  #ece8e6);
+    border: 1px solid #dcd9d8;
+    border-bottom: 1px solid #c1c1bd;
+    -webkit-box-shadow:  0 0 1px #c7c5c1;
+    -moz-box-shadow:  0 0 1px #c7c5c1;
+    box-shadow:  0 0 1px #c7c5c1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+
+a.bt-samp:hover { /*マウスホバー時*/
+    color:#9a9f9f;
+    background: #fbfbf9;
+}
+
+a.bt-samp:active{  /* ボタンを押したとき */
+    background:#ece8e4;
+    border: none;
+    box-shadow:  0 1px 1px #cccbc9, inset 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
 .f-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4259,10 +4453,10 @@ a.a-link_line:hover {
 
 .m-box-news_ttl a {
   padding: 20px 30px;
-  border-radius:10px;
+
   font-size:15px;
   width:300px;
-  background-color: #b0e0e6;
+  background-color: #a9a9a9;
   color: #fff;
   text-decoration: none;
   display: block;
@@ -4333,9 +4527,14 @@ a.a-link_line:hover {
   }
 }
 
+.a-btnarea{
+    z-index: 4;
+}
+
 .m-box-news_post:before {
   content: "";
   position: absolute;
+  z-index: 2;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -6139,7 +6338,7 @@ a.a-link_line:hover {
 
 #footer {
   margin: 0;
-  height: 500px;
+  height: 700px;
   overflow: hidden;
   background: #b0e0e6;
   color: #fff;
@@ -6876,6 +7075,7 @@ body {
 
 #keyvisual {
   height: 500px;
+  padding-top: 60px;
   background-image:url(../img/jpg/background.jpg);/*ここに画像貼る*/
   letter-spacing: 0.08em;
   position: relative;

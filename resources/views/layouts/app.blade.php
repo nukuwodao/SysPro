@@ -13,15 +13,43 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('/css/common.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/select2.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/base.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/contest.css') }}">
+        <link rel="stylesheet" href="{{ asset('lib/codemirror.css') }}">
+        <link rel="stylesheet" href="{{ asset('theme/mbo.css') }}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         @livewireStyles
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
+        <script src="{{ asset('lib/codemirror.js') }}"></script>
+        <script src="{{ asset('mode/clike/clike.js') }}"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="{{ asset('js/select2.min.js') }}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="{{ asset('js/common.js') }}"></script>
+        <script src="{{ asset('js/timeago.js') }}"></script>
+        <script src="{{ asset('easytimer.js-master/dist/easytimer.js') }}"></script>
+        <script src="{{ asset('js/countdown.js') }}"></script>
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+                processEscapes: true
+            }
+        });
+        </script>
+        <script type="text/javascript" async
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
+        </script>
     </head>
     <body class="font-sans antialiased">
-    <div class="min-h-screen bg-gray-100">
+    <div class="bg-gray-100">
         @livewire('navigation-dropdown')
 
         <!-- Page Content -->
@@ -49,11 +77,12 @@
                 <div class="footer_flex">
                     <div class="inner">
                         <ul class="footer_link">
-                            <li class="f-active"><i class="fas fa-home"></i><a href="/home">ホーム</a></li>
-                            <li><i class="fas fa-award"></i><a href="/contests/">コンテスト一覧</a></li>
+                            <li><a href=<?php echo url('/'); ?>><i class="fas fa-home"></i>ホーム</a></li>
+                            <li><a href=<?php echo url('/contest'); ?>><i class="fas fa-award"></i>コンテスト一覧</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
+        </div>
     </footer>
 </html>

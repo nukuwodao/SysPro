@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e84a7cbc-7e7a-4cbb-88b8-f8d4d78b6779" name="Default Changelist" comment="" />
+    <list default="true" id="e84a7cbc-7e7a-4cbb-88b8-f8d4d78b6779" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/contest.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/i18n/contest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/timeago.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/notice.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/practice/practice-problem-A.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/practice/practice-problem.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/practice/practice-result.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/practice/practice-top.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/spc001/spc001-after.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/spc001/spc001-codetest-after.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/spc001/spc001-problem-before.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/spc001/spc001-ranking-after.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/spc001/spc001-ranking.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/spc001/spc001-result-after.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/spc001/spc001-result.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/spc001/spc001-top-after.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SystemInfo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SystemInfo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/submit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/ContestLayout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/SIC001/SIC001-codetest.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/SIC001/SIC001-problem-A.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/SIC001/SIC001-problem-B.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/SIC001/SIC001-problem-C.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/SIC001/SIC001-problem-D.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/SIC001/SIC001-problem-E.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/SIC001/SIC001-problems.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/SIC001/SIC001-submit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contest.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/contest.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/practice.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/practice.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/practice/practice-codetest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/practice/practice-codetest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/practice/practice-submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/practice/practice-submit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pratice.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user_home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +70,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
@@ -136,9 +197,13 @@
       <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa" />
       <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
       <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
   <component name="ProjectId" id="1l92tSejOVgebK6zraLz2M2t650" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -146,9 +211,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yamazaki\SystemInfo\public\css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -165,7 +237,15 @@
       <option name="presentableId" value="Default" />
       <updated>1606995206625</updated>
       <workItem from="1606995211053" duration="37014000" />
-      <workItem from="1607562192060" duration="43612000" />
+      <workItem from="1607562192060" duration="60551000" />
+      <workItem from="1608183871497" duration="190347000" />
+      <workItem from="1609814004116" duration="2173000" />
+      <workItem from="1609816709840" duration="37599000" />
+      <workItem from="1609880862721" duration="76847000" />
+      <workItem from="1610179350196" duration="178634000" />
+      <workItem from="1610528643949" duration="1654000" />
+      <workItem from="1610782700416" duration="2672000" />
+      <workItem from="1610791220449" duration="7704000" />
     </task>
     <servers />
   </component>
@@ -173,17 +253,66 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1214" y="273" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607012664811">
+    <state x="-1214" y="273" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610194063056">
       <screen x="-1920" y="-49" width="1920" height="1040" />
     </state>
-    <state x="-1214" y="273" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1607012664811" />
+    <state x="-1214" y="273" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1610194063056" />
+    <state x="-1230" y="226" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610437795292">
+      <screen x="-1920" y="-49" width="1920" height="1040" />
+    </state>
+    <state x="-1230" y="226" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1610437795292" />
+    <state x="-1126" y="394" key="NewPhpFileDialog" timestamp="1608538336171">
+      <screen x="-1920" y="-49" width="1920" height="1040" />
+    </state>
+    <state x="-1126" y="394" key="NewPhpFileDialog/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1608538336171" />
     <state x="-1452" y="115" key="SettingsEditor" timestamp="1606995323233">
       <screen x="-1920" y="-49" width="1920" height="1040" />
     </state>
     <state x="-1452" y="115" key="SettingsEditor/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1606995323233" />
-    <state x="-1304" y="216" key="run.anything.popup" timestamp="1607571912643">
+    <state width="516" height="446" key="SwitcherDM" timestamp="1610279579417">
       <screen x="-1920" y="-49" width="1920" height="1040" />
     </state>
-    <state x="-1304" y="216" key="run.anything.popup/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1607571912643" />
+    <state width="516" height="446" key="SwitcherDM/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1610279579417" />
+    <state x="-776" y="73" width="688" height="1027" key="dock-window-1" timestamp="1610333186922">
+      <screen x="-1920" y="-49" width="1920" height="1040" />
+    </state>
+    <state x="-776" y="73" width="688" height="1027" key="dock-window-1/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1610333186922" />
+    <state x="-1435" y="131" width="791" height="1027" key="dock-window-2" timestamp="1610443246080">
+      <screen x="-1920" y="-49" width="1920" height="1040" />
+    </state>
+    <state x="-1435" y="131" width="791" height="1027" key="dock-window-2/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1610443246080" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1610303034529">
+      <screen x="-1920" y="-49" width="1920" height="1040" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1610303034529" />
+    <state x="-1304" y="216" key="run.anything.popup" timestamp="1610331927521">
+      <screen x="-1920" y="-49" width="1920" height="1040" />
+    </state>
+    <state x="-1304" y="216" key="run.anything.popup/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1610331927521" />
+    <state x="-1297" y="176" width="672" height="678" key="search.everywhere.popup" timestamp="1610432942744">
+      <screen x="-1920" y="-49" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="176" width="672" height="678" key="search.everywhere.popup/0.0.1280.984/-1920.-49.1920.1040@-1920.-49.1920.1040" timestamp="1610432942744" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/practice.blade.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/home.blade.php</url>
+          <line>156</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/contest-all.blade.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
