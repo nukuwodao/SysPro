@@ -19,8 +19,8 @@ class CreatePracticeTable extends Migration
             $table->integer('rank');
             $table->string('A')->nullable()->default(null);
             $table->string('B')->nullable()->default(null);
-            $table->integer('A_point')->default("");
-            $table->integer('B_point')->default("");
+            $table->integer('A_point')->default(0);
+            $table->integer('B_point')->default(0);
             $table->string('time')->default('');
             $table->timestamps();
         });
