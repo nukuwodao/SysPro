@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e84a7cbc-7e7a-4cbb-88b8-f8d4d78b6779" name="Default Changelist" comment="" />
+    <list default="true" id="e84a7cbc-7e7a-4cbb-88b8-f8d4d78b6779" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/sample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_06_062609_create_contest_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_062609_create_contest_table.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,7 +194,7 @@
       <workItem from="1610179350196" duration="178634000" />
       <workItem from="1610528643949" duration="1654000" />
       <workItem from="1610782700416" duration="2672000" />
-      <workItem from="1610791220449" duration="9643000" />
+      <workItem from="1610791220449" duration="10213000" />
     </task>
     <servers />
   </component>

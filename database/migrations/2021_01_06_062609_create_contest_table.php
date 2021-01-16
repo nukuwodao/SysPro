@@ -19,8 +19,8 @@ class CreateContestTable extends Migration
             $table->string('Contest_name');
             $table->integer('num');
             $table->string('status');
-            $table->dateTIme('star')->default('');
-            $table->dateTIme('end')->default('');
+            $table->dateTIme('star');
+            $table->dateTIme('end');
             $table->string('contest_time')->default('');
             $table->string('allocation');
             $table->timestamps();
