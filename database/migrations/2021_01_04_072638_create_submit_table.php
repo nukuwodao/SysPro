@@ -15,7 +15,7 @@ class CreateSubmitTable extends Migration
     {
         Schema::create('submit', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id')->default('');
+            $table->integer('user_id');
             $table->string('Contest_name')->default('');
             $table->string('Problem_Code')->default('');
             $table->string('Problem_name')->default('');
